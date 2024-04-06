@@ -20,19 +20,19 @@ while number_of_turnins > 0:
     pyautogui.mouseDown(button='left')
     pyautogui.mouseUp(button='left')
 
-    time.sleep(1)
+    time.sleep(0.15)
 
     pyautogui.moveTo(x = config[1][0], y = config[1][1])
     pyautogui.mouseDown(button='right')
     pyautogui.mouseUp(button='right')
 
-    time.sleep(1)
+    time.sleep(0.15)
 
     pyautogui.moveTo(x = config[2][0], y = config[2][1])
     pyautogui.mouseDown(button='left')
     pyautogui.mouseUp(button='left')
 
-    time.sleep(1)
+    time.sleep(0.15)
 
     pyautogui.moveTo(x = config[3][0], y = config[3][1])
     pyautogui.mouseDown(button='left')
@@ -40,4 +40,4 @@ while number_of_turnins > 0:
 
     number_of_turnins -= 1
 
-    time.sleep(2)
+    time.sleep(0.5)
